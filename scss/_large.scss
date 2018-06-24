@@ -1,5 +1,26 @@
 /*  ----------------------- BODY --------------------------- */
 
+/* only limit main, nav but not header or footer */
+nav,
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/* limit all */
+// header,
+// nav,
+// main,
+// footer {
+//   max-width: 60rem;
+//   margin: 0 auto;
+// }
+
+// if wanna space on the header and bottom
+body {
+  padding: 1rem 0;
+}
+
 /*  ----------------------- NAVIGATION --------------------------- */
 nav {
   ul {
