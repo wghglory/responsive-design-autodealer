@@ -2,6 +2,10 @@
 
 Responsive design, media query, scss, koala
 
+## Koala
+
+**Koala specifies that the output points to css/styles.css**.
+
 ## Start up project
 
 vscode liver server + koala to compile scss.
