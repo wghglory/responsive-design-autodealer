@@ -2,6 +2,8 @@
 
 Responsive design, media query, scss, koala
 
+![Full screen stretch](http://om1o84p1p.bkt.clouddn.com/1529844771.png?imageMogr2/thumbnail/!70p)
+
 ## Koala
 
 **Koala specifies that the output points to css/styles.css**.

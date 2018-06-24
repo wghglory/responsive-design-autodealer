@@ -1,0 +1,42 @@
+/*  ----------------------- BODY --------------------------- */
+
+/*  ----------------------- NAVIGATION --------------------------- */
+nav {
+  ul {
+    margin-left: $gutter;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+
+    li {
+      width: auto;
+
+      &:last-child {
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+      }
+
+      a {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}
+
+/*  ----------------------- MAIN --------------------------- */
+main {
+  figure.photo {
+    width: 25%-$gutterdbl;
+    float: left;
+  }
+
+  div.blog article {
+    float: left;
+    width: 33.33%-$gutterdbl;
+
+    &:nth-child(2n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(3n + 1) {
+      clear: left;
+    }
+  }
+}
