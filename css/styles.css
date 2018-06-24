@@ -300,18 +300,7 @@ footer p a {
 }
 @media only screen and (min-width: 60rem) {
   /*  ----------------------- BODY --------------------------- */
-  /* only limit main, nav but not header or footer */
-  nav,
-  main {
-    max-width: 60rem;
-    margin: 0 auto;
-  }
-
   /* limit all */
-  body {
-    padding: 1rem 0;
-  }
-
   /*  ----------------------- NAVIGATION --------------------------- */
   nav ul {
     margin-left: 2%;
@@ -328,6 +317,10 @@ footer p a {
   }
 
   /*  ----------------------- MAIN --------------------------- */
+  main section {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
   main figure.photo {
     width: 21%;
     float: left;

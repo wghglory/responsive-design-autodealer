@@ -2,38 +2,7 @@
 
 Responsive design, media query, scss, koala
 
-**Limit all:**
-
-![Limited width](http://om1o84p1p.bkt.clouddn.com/1529845907.png?imageMogr2/thumbnail/!70p)
-
-```scss
-// _large.scss
-header,
-nav,
-main,
-footer {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-
-// if wanna space on the header and bottom
-body {
-  padding: 1rem 0;
-}
-```
-
-**Limit only main and nav, but not header or footer:**
-
-![Limited only main and nav, but not header or footer](http://om1o84p1p.bkt.clouddn.com/1529846062.png?imageMogr2/thumbnail/!70p)
-
-```scss
-// _large.scss
-nav,
-main {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-```
+![limit portion](http://om1o84p1p.bkt.clouddn.com/1529849254.png?imageMogr2/thumbnail/!70p)
 
 ## Koala
 
