@@ -128,15 +128,17 @@ body {
 }
 
 /*  ----------------------- HEADER --------------------------- */
-header {
+.header-wrapper {
   background-color: #66000a;
+}
+.header-wrapper header {
   color: #ccccb8;
   padding: 1rem 2%;
 }
-header form {
+.header-wrapper header form {
   float: right;
 }
-header form input {
+.header-wrapper header form input {
   width: 6rem;
   border-radius: 10px;
   margin-right: 2%;
@@ -144,23 +146,24 @@ header form input {
   border: none;
   transition: width 0.5s;
 }
-header form input:focus {
+.header-wrapper header form input:focus {
   width: 8rem;
 }
-header h1 {
+.header-wrapper header h1 {
   font-size: 2rem;
   font-weight: 300;
 }
-header h2 {
+.header-wrapper header h2 {
   font-size: 1.05rem;
   font-weight: 300;
 }
 
 /*  ----------------------- NAVIGATION --------------------------- */
-nav {
+.nav-wrapper {
   background-color: #ccccb8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 nav ul li {
   float: left;
   width: 25%;
@@ -255,17 +258,19 @@ main div.blog article {
 }
 
 /*  ----------------------- FOOTER --------------------------- */
-footer {
-  width: 100%;
+.footer-wrapper {
   background-color: #66000a;
 }
-footer p {
+.footer-wrapper footer {
+  width: 100%;
+}
+.footer-wrapper footer p {
   text-align: center;
   color: #ccccb8;
   padding: 0.75rem 0;
   font-size: 0.9rem;
 }
-footer p a {
+.footer-wrapper footer p a {
   color: #ccccb8;
 }
 
@@ -300,16 +305,12 @@ footer p a {
 }
 @media only screen and (min-width: 60rem) {
   /*  ----------------------- BODY --------------------------- */
-  /* only limit main, nav but not header or footer */
+  header,
   nav,
-  main {
+  main,
+  footer {
     max-width: 60rem;
     margin: 0 auto;
-  }
-
-  /* limit all */
-  body {
-    padding: 1rem 0;
   }
 
   /*  ----------------------- NAVIGATION --------------------------- */

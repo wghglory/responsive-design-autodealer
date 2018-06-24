@@ -2,6 +2,14 @@
 
 Responsive design, media query, scss, koala
 
+## Limit main. nav/header/footer stretch but text moves to center
+
+Limit width and extend background by wrapper:
+
+![Wrapper usage](http://om1o84p1p.bkt.clouddn.com/1529848332.png?imageMogr2/thumbnail/!70p)
+
+---
+
 **Limit all:**
 
 ![Limited width](http://om1o84p1p.bkt.clouddn.com/1529845907.png?imageMogr2/thumbnail/!70p)

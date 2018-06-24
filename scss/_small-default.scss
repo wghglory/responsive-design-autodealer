@@ -19,41 +19,52 @@ body {
 }
 
 /*  ----------------------- HEADER --------------------------- */
-header {
+.header-wrapper {
   background-color: $primaryColor;
-  color: $secondaryColor;
-  padding: 1rem $gutter;
 
-  form {
-    float: right;
-  }
-  form input {
-    width: 6rem;
-    border-radius: 10px;
-    margin-right: 2%;
-    padding: 0.2rem;
-    border: none;
-    transition: width 0.5s;
-  }
-  form input:focus {
-    width: 8rem;
-  }
+  header {
+    // move up background-color: $primaryColor;
+    color: $secondaryColor;
+    padding: 1rem $gutter;
 
-  h1 {
-    font-size: 2rem;
-    font-weight: $normalWeight;
-  }
+    form {
+      float: right;
+    }
+    form input {
+      width: 6rem;
+      border-radius: 10px;
+      margin-right: 2%;
+      padding: 0.2rem;
+      border: none;
+      transition: width 0.5s;
+    }
+    form input:focus {
+      width: 8rem;
+    }
 
-  h2 {
-    font-size: 1.05rem;
-    font-weight: $normalWeight;
+    h1 {
+      font-size: 2rem;
+      font-weight: $normalWeight;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: $normalWeight;
+    }
   }
 }
 
 /*  ----------------------- NAVIGATION --------------------------- */
-nav {
+.nav-wrapper {
   background-color: $secondaryColor;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+// don't move nav inside .nav-wrapper because it will make the css selector in large.scss not applied.
+nav {
+  // move up
+  // background-color: $secondaryColor;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
   ul li {
     float: left;
@@ -169,17 +180,21 @@ main {
 }
 
 /*  ----------------------- FOOTER --------------------------- */
-footer {
-  width: 100%;
+.footer-wrapper {
   background-color: $primaryColor;
 
-  p {
-    text-align: center;
-    color: $secondaryColor;
-    padding: 0.75rem 0;
-    font-size: 0.9rem;
-    a {
+  footer {
+    width: 100%;
+    // move up background-color: $primaryColor;
+
+    p {
+      text-align: center;
       color: $secondaryColor;
+      padding: 0.75rem 0;
+      font-size: 0.9rem;
+      a {
+        color: $secondaryColor;
+      }
     }
   }
 }
