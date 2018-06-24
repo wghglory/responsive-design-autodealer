@@ -2,7 +2,7 @@
 
 Responsive design, media query, scss, koala
 
-![Full screen stretch](http://om1o84p1p.bkt.clouddn.com/1529844771.png?imageMogr2/thumbnail/!70p)
+![Full screen stretch with different colors](http://om1o84p1p.bkt.clouddn.com/1529845458.png?imageMogr2/thumbnail/!70p)
 
 ## Koala
 
